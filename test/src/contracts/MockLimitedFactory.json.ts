@@ -1,0 +1,8 @@
+export default {
+"abi":[
+{"inputs":[{"internalType":"address","name":"","type":"address"},{"internalType":"address","name":"","type":"address"}],"name":"getPair","outputs":[{"internalType":"address","name":"pair","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"minLotSize","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"size","type":"uint256"}],"name":"setMinLotSize","outputs":[],"stateMutability":"nonpayable","type":"function"}
+],
+"bytecode":"608060405234801561001057600080fd5b506101a3806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c8063130a0b4014610046578063e6a4390514610081578063f98126f9146100e5575b600080fd5b61007f6004803603604081101561005c57600080fd5b5073ffffffffffffffffffffffffffffffffffffffff813516906020013561012a565b005b6100bc6004803603604081101561009757600080fd5b5073ffffffffffffffffffffffffffffffffffffffff81358116916020013516610153565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b610118600480360360208110156100fb57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff1661015b565b60408051918252519081900360200190f35b73ffffffffffffffffffffffffffffffffffffffff909116600090815260208190526040902055565b600092915050565b6000602081905290815260409020548156fea2646970667358221220499cab24b39ded2cd7d0377495a29c44f6df96e10244f614edd9a1ab5a53d9d764736f6c634300060b0033"
+}

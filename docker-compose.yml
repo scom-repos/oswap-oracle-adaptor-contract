@@ -1,0 +1,32 @@
+version: "3.1"
+services:
+  install:
+    image: node:18
+    user: node
+    volumes:
+      - .:/data
+    command: bash -c "cd /data && rm -rf node_modules && rm -f package-lock.json && npm i" 
+  update:
+    image: node:18
+    user: node
+    volumes:
+      - .:/data
+    command: bash -c "cd /data && npm update"     
+  build:
+    image: node:18
+    user: node
+    volumes:
+      - .:/data
+    command: bash -c "cd /data && npm run build"
+  buildLib:
+    image: node:18
+    user: node
+    volumes:
+      - .:/data
+    command: bash -c "cd /data && npm run build:lib"    
+  test:
+    image: node:18
+    user: node
+    volumes:
+      - .:/data
+    command: bash -c "cd /data && npm run test"       

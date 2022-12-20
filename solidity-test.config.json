@@ -1,0 +1,7 @@
+{
+    "version": "0.6.11",
+    "optimizerRuns": 999999,
+    "sourceDir": "test/contracts",
+    "outputDir": "test/src/contracts",
+    "outputObjects": "bytecode"
+}

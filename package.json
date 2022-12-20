@@ -1,0 +1,40 @@
+{
+  "name": "@scom/oracle-adaptor-contract",
+  "version": "0.1.4",
+  "description": "",
+  "main": "lib/index.js",
+  "plugin": "dist/index.js",
+  "pluginTypes": "pluginTypes/index.d.ts",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "build": "npm run build:contracts && npm run build:lib && npm run build:dist",
+    "build:contracts": "sol2ts solidity.config.json",
+    "build:testContracts": "sol2ts solidity-test.config.json",
+    "build:lib": "tsc",
+    "build:dist": "npx @ijstech/compiler",
+    "test": "npx hardhat test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ijstech/eth-contract": "^0.1.4"
+  },
+  "devDependencies": {
+    "@ijstech/cli": "^0.1.26",
+    "@ijstech/compiler": "^0.1.22",
+    "@ijstech/eth-wallet": "^0.1.35",
+    "@scom/contract-deployer": "^0.1.6",
+    "@scom/dapp": "^0.1.6",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@types/chai": "^4.2.18",
+    "@types/mkdirp": "^1.0.2",
+    "@types/node": "18.8.4",
+    "chai": "^4.3.4",
+    "ethers": "^5.1.4",
+    "hardhat": "^2.2.1",
+    "mkdirp": "^0.5.5",
+    "ts-node": "^10.1.0",
+    "typescript": "4.8.4"
+  }
+}

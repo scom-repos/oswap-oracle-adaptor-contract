@@ -1,0 +1,8 @@
+export default {
+"abi":[
+{"inputs":[{"internalType":"address","name":"oracle","type":"address"}],"name":"getSecurityScore","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},
+{"inputs":[],"name":"oracleAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},
+{"inputs":[{"internalType":"address","name":"oracle","type":"address"},{"internalType":"uint256","name":"score","type":"uint256"}],"name":"setSecurityScore","outputs":[],"stateMutability":"nonpayable","type":"function"}
+],
+"bytecode":"608060405234801561001057600080fd5b5061019a806100206000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806352d3824314610046578063a89ae4ba1461008b578063c716336c146100bc575b600080fd5b6100796004803603602081101561005c57600080fd5b503573ffffffffffffffffffffffffffffffffffffffff166100f7565b60408051918252519081900360200190f35b61009361011f565b6040805173ffffffffffffffffffffffffffffffffffffffff9092168252519081900360200190f35b6100f5600480360360408110156100d257600080fd5b5073ffffffffffffffffffffffffffffffffffffffff813516906020013561013b565b005b73ffffffffffffffffffffffffffffffffffffffff1660009081526001602052604090205490565b60005473ffffffffffffffffffffffffffffffffffffffff1681565b73ffffffffffffffffffffffffffffffffffffffff90911660009081526001602052604090205556fea2646970667358221220c4769cd91f97f19a1f2ef6ba2335f786183da53630f0f905a96315951b10dd3f64736f6c634300060b0033"
+}
