@@ -1,6 +1,6 @@
 {
-  "name": "@scom/oracle-adaptor-contract",
-  "version": "0.1.4",
+  "name": "@scom/oswap-oracle-adaptor-contract",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "plugin": "dist/index.js",
