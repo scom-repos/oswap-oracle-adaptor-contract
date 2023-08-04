@@ -74,8 +74,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChained.ts", [
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChained = OSWAP_OracleChained;
     OSWAP_OracleChained._abi = OSWAP_OracleChained_json_1.default.abi;
+    exports.OSWAP_OracleChained = OSWAP_OracleChained;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlink.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -157,8 +157,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlink.ts",
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlink = OSWAP_OracleChainlink;
     OSWAP_OracleChainlink._abi = OSWAP_OracleChainlink_json_1.default.abi;
+    exports.OSWAP_OracleChainlink = OSWAP_OracleChainlink;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkBinance.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -240,8 +240,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkBinan
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkBinance = OSWAP_OracleChainlinkBinance;
     OSWAP_OracleChainlinkBinance._abi = OSWAP_OracleChainlinkBinance_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkBinance = OSWAP_OracleChainlinkBinance;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiat.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -317,8 +317,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiat.
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkFiat = OSWAP_OracleChainlinkFiat;
     OSWAP_OracleChainlinkFiat._abi = OSWAP_OracleChainlinkFiat_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkFiat = OSWAP_OracleChainlinkFiat;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatAvalanche.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -394,8 +394,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatA
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkFiatAvalanche = OSWAP_OracleChainlinkFiatAvalanche;
     OSWAP_OracleChainlinkFiatAvalanche._abi = OSWAP_OracleChainlinkFiatAvalanche_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkFiatAvalanche = OSWAP_OracleChainlinkFiatAvalanche;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatBinance.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -471,8 +471,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatB
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkFiatBinance = OSWAP_OracleChainlinkFiatBinance;
     OSWAP_OracleChainlinkFiatBinance._abi = OSWAP_OracleChainlinkFiatBinance_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkFiatBinance = OSWAP_OracleChainlinkFiatBinance;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatGeneric.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -548,8 +548,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatG
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkFiatGeneric = OSWAP_OracleChainlinkFiatGeneric;
     OSWAP_OracleChainlinkFiatGeneric._abi = OSWAP_OracleChainlinkFiatGeneric_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkFiatGeneric = OSWAP_OracleChainlinkFiatGeneric;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkGeneric.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -625,8 +625,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkGener
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkGeneric = OSWAP_OracleChainlinkGeneric;
     OSWAP_OracleChainlinkGeneric._abi = OSWAP_OracleChainlinkGeneric_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkGeneric = OSWAP_OracleChainlinkGeneric;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimitedGeneric.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -708,8 +708,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimit
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkLimitedGeneric = OSWAP_OracleChainlinkLimitedGeneric;
     OSWAP_OracleChainlinkLimitedGeneric._abi = OSWAP_OracleChainlinkLimitedGeneric_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkLimitedGeneric = OSWAP_OracleChainlinkLimitedGeneric;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatGeneric.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -844,8 +844,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPrice
             this.wethPriceFeed = wethPriceFeed_call;
         }
     }
-    exports.OSWAP_OracleChainlinkPriceGuardFiatGeneric = OSWAP_OracleChainlinkPriceGuardFiatGeneric;
     OSWAP_OracleChainlinkPriceGuardFiatGeneric._abi = OSWAP_OracleChainlinkPriceGuardFiatGeneric_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkPriceGuardFiatGeneric = OSWAP_OracleChainlinkPriceGuardFiatGeneric;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardGeneric.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -980,8 +980,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPrice
             this.wethPriceFeed = wethPriceFeed_call;
         }
     }
-    exports.OSWAP_OracleChainlinkPriceGuardGeneric = OSWAP_OracleChainlinkPriceGuardGeneric;
     OSWAP_OracleChainlinkPriceGuardGeneric._abi = OSWAP_OracleChainlinkPriceGuardGeneric_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkPriceGuardGeneric = OSWAP_OracleChainlinkPriceGuardGeneric;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkV1Generic.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1045,8 +1045,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkV1Gen
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkV1Generic = OSWAP_OracleChainlinkV1Generic;
     OSWAP_OracleChainlinkV1Generic._abi = OSWAP_OracleChainlinkV1Generic_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkV1Generic = OSWAP_OracleChainlinkV1Generic;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimited.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1134,8 +1134,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimit
             this.priceFeedAddresses = priceFeedAddresses_call;
         }
     }
-    exports.OSWAP_OracleChainlinkLimited = OSWAP_OracleChainlinkLimited;
     OSWAP_OracleChainlinkLimited._abi = OSWAP_OracleChainlinkLimited_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkLimited = OSWAP_OracleChainlinkLimited;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardBinance.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1276,8 +1276,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPrice
             this.wethPriceFeed = wethPriceFeed_call;
         }
     }
-    exports.OSWAP_OracleChainlinkPriceGuardBinance = OSWAP_OracleChainlinkPriceGuardBinance;
     OSWAP_OracleChainlinkPriceGuardBinance._abi = OSWAP_OracleChainlinkPriceGuardBinance_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkPriceGuardBinance = OSWAP_OracleChainlinkPriceGuardBinance;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatAvalanche.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1412,8 +1412,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPrice
             this.wethPriceFeed = wethPriceFeed_call;
         }
     }
-    exports.OSWAP_OracleChainlinkPriceGuardFiatAvalanche = OSWAP_OracleChainlinkPriceGuardFiatAvalanche;
     OSWAP_OracleChainlinkPriceGuardFiatAvalanche._abi = OSWAP_OracleChainlinkPriceGuardFiatAvalanche_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkPriceGuardFiatAvalanche = OSWAP_OracleChainlinkPriceGuardFiatAvalanche;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatBinance.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1548,8 +1548,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPrice
             this.wethPriceFeed = wethPriceFeed_call;
         }
     }
-    exports.OSWAP_OracleChainlinkPriceGuardFiatBinance = OSWAP_OracleChainlinkPriceGuardFiatBinance;
     OSWAP_OracleChainlinkPriceGuardFiatBinance._abi = OSWAP_OracleChainlinkPriceGuardFiatBinance_json_1.default.abi;
+    exports.OSWAP_OracleChainlinkPriceGuardFiatBinance = OSWAP_OracleChainlinkPriceGuardFiatBinance;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstant.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1614,8 +1614,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstant.ts", 
             this.prices = prices_call;
         }
     }
-    exports.OSWAP_OracleConstant = OSWAP_OracleConstant;
     OSWAP_OracleConstant._abi = OSWAP_OracleConstant_json_1.default.abi;
+    exports.OSWAP_OracleConstant = OSWAP_OracleConstant;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstantLimited.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1687,8 +1687,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstantLimite
             this.prices = prices_call;
         }
     }
-    exports.OSWAP_OracleConstantLimited = OSWAP_OracleConstantLimited;
     OSWAP_OracleConstantLimited._abi = OSWAP_OracleConstantLimited_json_1.default.abi;
+    exports.OSWAP_OracleConstantLimited = OSWAP_OracleConstantLimited;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSetYourOwnPrice.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1745,8 +1745,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSetYourOwnPric
             this.isSupported = isSupported_call;
         }
     }
-    exports.OSWAP_OracleSetYourOwnPrice = OSWAP_OracleSetYourOwnPrice;
     OSWAP_OracleSetYourOwnPrice._abi = OSWAP_OracleSetYourOwnPrice_json_1.default.abi;
+    exports.OSWAP_OracleSetYourOwnPrice = OSWAP_OracleSetYourOwnPrice;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSigned.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1829,8 +1829,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSigned.ts", ["
             });
         }
     }
-    exports.OSWAP_OracleSigned = OSWAP_OracleSigned;
     OSWAP_OracleSigned._abi = OSWAP_OracleSigned_json_1.default.abi;
+    exports.OSWAP_OracleSigned = OSWAP_OracleSigned;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleUnity.json.ts", ["require", "exports"], function (require, exports) {
     "use strict";
@@ -1887,8 +1887,8 @@ define("@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleUnity.ts", ["r
             this.isSupported = isSupported_call;
         }
     }
-    exports.OSWAP_OracleUnity = OSWAP_OracleUnity;
     OSWAP_OracleUnity._abi = OSWAP_OracleUnity_json_1.default.abi;
+    exports.OSWAP_OracleUnity = OSWAP_OracleUnity;
 });
 define("@scom/oswap-oracle-adaptor-contract/contracts/index.ts", ["require", "exports", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChained.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlink.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkBinance.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiat.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatAvalanche.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatBinance.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkFiatGeneric.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkGeneric.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimitedGeneric.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatGeneric.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardGeneric.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkV1Generic.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkLimited.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardBinance.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatAvalanche.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleChainlinkPriceGuardFiatBinance.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstant.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleConstantLimited.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSetYourOwnPrice.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSigned.ts", "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleUnity.ts"], function (require, exports, OSWAP_OracleChained_1, OSWAP_OracleChainlink_1, OSWAP_OracleChainlinkBinance_1, OSWAP_OracleChainlinkFiat_1, OSWAP_OracleChainlinkFiatAvalanche_1, OSWAP_OracleChainlinkFiatBinance_1, OSWAP_OracleChainlinkFiatGeneric_1, OSWAP_OracleChainlinkGeneric_1, OSWAP_OracleChainlinkLimitedGeneric_1, OSWAP_OracleChainlinkPriceGuardFiatGeneric_1, OSWAP_OracleChainlinkPriceGuardGeneric_1, OSWAP_OracleChainlinkV1Generic_1, OSWAP_OracleChainlinkLimited_1, OSWAP_OracleChainlinkPriceGuardBinance_1, OSWAP_OracleChainlinkPriceGuardFiatAvalanche_1, OSWAP_OracleChainlinkPriceGuardFiatBinance_1, OSWAP_OracleConstant_1, OSWAP_OracleConstantLimited_1, OSWAP_OracleSetYourOwnPrice_1, OSWAP_OracleSigned_1, OSWAP_OracleUnity_1) {
     "use strict";
@@ -1920,6 +1920,5 @@ define("@scom/oswap-oracle-adaptor-contract", ["require", "exports", "@scom/oswa
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.Contracts = void 0;
-    ///<amd-module name='@scom/oswap-oracle-adaptor-contract'/> 
     exports.Contracts = Contracts;
 });

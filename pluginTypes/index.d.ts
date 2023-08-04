@@ -1786,7 +1786,7 @@ declare module "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleSetYou
     export class OSWAP_OracleSetYourOwnPrice extends _Contract {
         static _abi: any;
         constructor(wallet: IWallet, address?: string);
-        deploy(options?: number | BigNumber | TransactionOptions): Promise<string>;
+        deploy(options?: TransactionOptions): Promise<string>;
         decimals: {
             (options?: TransactionOptions): Promise<BigNumber>;
         };
@@ -1937,7 +1937,7 @@ declare module "@scom/oswap-oracle-adaptor-contract/contracts/OSWAP_OracleUnity.
     export class OSWAP_OracleUnity extends _Contract {
         static _abi: any;
         constructor(wallet: IWallet, address?: string);
-        deploy(options?: number | BigNumber | TransactionOptions): Promise<string>;
+        deploy(options?: TransactionOptions): Promise<string>;
         decimals: {
             (options?: TransactionOptions): Promise<BigNumber>;
         };

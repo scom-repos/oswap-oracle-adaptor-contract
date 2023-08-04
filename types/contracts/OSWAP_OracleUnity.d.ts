@@ -18,7 +18,7 @@ export interface IIsSupportedParams {
 export declare class OSWAP_OracleUnity extends _Contract {
     static _abi: any;
     constructor(wallet: IWallet, address?: string);
-    deploy(options?: number | BigNumber | TransactionOptions): Promise<string>;
+    deploy(options?: TransactionOptions): Promise<string>;
     decimals: {
         (options?: TransactionOptions): Promise<BigNumber>;
     };

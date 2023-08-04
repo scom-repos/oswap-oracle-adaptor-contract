@@ -7,11 +7,10 @@
   "pluginTypes": "pluginTypes/index.d.ts",
   "types": "types/index.d.ts",
   "scripts": {
-    "build": "npm run build:contracts && npm run build:lib && npm run build:dist",
-    "build:contracts": "sol2ts solidity.config.json",
+    "build": "npm run build:contracts && npm run build:lib",
+    "build:contracts": "rm -rf src/contracts && npx @ijstech/compiler",
     "build:testContracts": "sol2ts solidity-test.config.json",
     "build:lib": "tsc",
-    "build:dist": "npx @ijstech/compiler",
     "test": "npx hardhat test"
   },
   "author": "",
