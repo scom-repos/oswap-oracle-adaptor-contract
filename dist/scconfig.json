@@ -1,7 +1,7 @@
 {
     "name": "@scom/oswap-oracle-adaptor-contract",
     "type": "contract",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "dependencies": [
         "@ijstech/eth-wallet",
         "@ijstech/eth-contract"
